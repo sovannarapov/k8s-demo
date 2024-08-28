@@ -11,8 +11,6 @@
 
 ##### start Minikube
 
-    minikube start --vm-driver=hyperkit
-    or
     minikube start --driver docker
 
 ##### check status
