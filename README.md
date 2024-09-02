@@ -31,14 +31,13 @@
 ##### get basic info about k8s components
 
     kubectl get node
+    kubectl get node -o wide
     kubectl get pod
+    kubectl get pod --watch
+    kubectl get pod -o wide
+    kubectl get secret
     kubectl get svc
     kubectl get all
-
-##### get extended info about components
-
-    kubectl get pod -o wide
-    kubectl get node -o wide
 
 ##### get detailed info about a specific component
 
