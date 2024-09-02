@@ -17,6 +17,13 @@
 
     minikube status
 
+### apply commands in order
+
+    kubectl apply -f mongo-secret.yaml
+    kubectl apply -f mongo.yaml
+    kubectl apply -f mongo-config.yaml
+    kubectl apply -f webapp.yaml
+
 ##### get minikube node's ip address
 
     minikube ip
